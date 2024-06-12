@@ -39,5 +39,14 @@
     <ClCompile Include="mainTest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="endian_conv.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_addr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_aton.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

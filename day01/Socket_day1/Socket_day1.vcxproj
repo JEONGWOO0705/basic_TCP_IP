@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="endian_conv.c" />
     <ClCompile Include="fd_seri.c" />
     <ClCompile Include="hello_client.c" />
     <ClCompile Include="hello_server.c" />
+    <ClCompile Include="inet_addr.c" />
+    <ClCompile Include="inet_aton.c" />
     <ClCompile Include="low_open.c" />
     <ClCompile Include="low_read.c" />
     <ClCompile Include="mainTest.c" />

@@ -2,6 +2,11 @@
 #include<arpa/inet.h>
 
 int main(int argc, char* argv[]) {
+	//htons에서 h는 호스트 바이트 순서 , n은 네트워크 바이트 순서를 의미한다
+	// s는 short, l은 long 
+	// --->>> h, to, n , s의 조합으로 해석
+
+	
 	unsigned short host_port = 0x1234;
 	unsigned short net_port;
 	unsigned long host_addr = 0x12345678;
